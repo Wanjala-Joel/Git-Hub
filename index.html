@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Git Hub</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <header>
+   	 <div class="container">
+   	 	<h2>Git Hub</h2>
+   	 	 <div class="container button">
+   	       <button type="submit" class="Btn" onclick="msg()">Click Here</button>
+         </div>
+   	 	<hr>
+   	 	<p>GitHub is a global company that provides hosting for software development version control using Git.</p>
+   	 </div>
+   </header>
+   <section id="section-git">
+   	<div class="container">
+   		<h2>Several commands used in Git Hub on a linux operating system <hr></h2>
+   		<p>The commands have several stages in which one must use to host a website on Git Hub for version control. The following are some basic commands used in the terminal for hosting a repository. Each command must start with <code>git</code> in the terminal. Basic commands include:</p>
+   		<ul>
+   			<li><code>git version</code></li>
+   			<p>Helps to know which version of git is installed on a computer.</p>
+   			<li><code>cd</code></li>
+   			<p>This is a command where you copy paste the path containing the folder which you want to host in the github repository. Example <code>cd /home/joel/documents/java</code></p>
+   			<li><code>ls</code></li>
+   			<p>This command is used to check the files that are resent in the folder you have chosen from your machine.</p>
+   			<li><code>ll -a</code></li>
+   			<p>Shows all that is contained in the folder.</p>
+   			<li><code>git clone link</code></li>
+   			<p>This clones the your files to the repository. The link is acquired from the repository you have created in the Git Hub.</p>
+   			<li><code>git status</code></li>
+   			<p>This command is used to show the untracked files in the repository ready to be pushed in the master or branch you are working from.</p>
+   			<li><code>cd website/</code></li>
+   			<p>This command is used to navigate the git repository you have created. Example <code>cd Basic-of-JS/</code>. Notice that a slash <code>"/"</code> punctuation is necessary at the end of the website.</p>
+   			<li><code>git add .</code></li>
+   			<p>This is used to add the files to the branch you are working in or the master</p>
+   			<li><code>git status</code></li>
+   			<p>This is used to show the files in the master or branch to be commited in your repository</p>
+   			<li><code>git commit -m 'message'</code></li>
+   			<p>This is used to commit the changes to the master or branch. The 'message' is where you type a message about the files you are willing to host.</p>
+   			<li><code>git push origin master</code></li>
+   			<p>This command pushes your files into the repository you have chosen.</p>
+   			<hr>
+   		</ul>
+   	</div>
+   </section>
+   <div class="container button">
+   	 <button type="submit" class="colorBtn">Press here to change background</button>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+<footer>
+	<p>Joel GitHub &copy; 2020</p>
+</footer>
+</html>
